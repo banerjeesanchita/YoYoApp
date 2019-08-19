@@ -1,11 +1,9 @@
 import React from 'react'
-
-const Home = () => {
+import Hero from '../components/Hero' 
+export default function Home () {
     return (
-        <div className="roomsHero">
-            From Home
-        </div>
+       <Hero hero="roomsHero"></Hero>
     )
 }
 
-export default Home
+
